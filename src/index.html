@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Countries</title>
+</head>
+<body>
+    <header>
+        <h1>Countries List</h1>
+    </header>
+    <div class="nav-bar">
+        <div class="Name">
+            <p>Name</p>
+            <input type="text" id="nameInput" placeholder="">
+        </div>
+        <div class="Capital">
+            <p>Capital</p>
+            <input type="text" id="capitalInput" placeholder="">
+        </div>
+        <div class="Currency">
+            <p>Currency name</p>
+            <input type="text" id="currencyInput" placeholder="">
+        </div>
+        <div class="Language">
+            <p>Language</p>
+            <input type="text" id="languageInput" placeholder="">
+        </div>
+    </div>
+    <div class="btn-s">
+        <button id="search-button">Search</button>
+    </div>
+    <article>
+        
+        <div class="flag">
+            <div class="countries-container" id="countries-container">
+            </div>
+        </div>
+        <div class="pagination" id="pagination-container">
+        <button class='load-more' id="load-more">Load More</button>
+    </div>
+    </article>
+
+    <script src="/scripts.js"></script>
+</body>
+</html>

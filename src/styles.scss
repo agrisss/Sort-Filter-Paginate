@@ -1,0 +1,81 @@
+body {
+  background: #360827;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 20px;
+}
+
+.btn-s {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+article {
+  background: #4a304d;
+  padding: 20px;
+  overflow-x: auto; /* Enable horizontal scrolling for small screens */
+}
+
+#countries-container {
+  display: table;
+  width: 100%;
+}
+
+.country-card {
+  display: table-row;
+  border: 1px solid #ddd;
+}
+
+.country-card h3,
+.country-card p {
+  display: table-cell;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.country-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+#load-more {
+  background: #fff;
+  color: #4a304d;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-number {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+  color: #fff; /* Change this to your desired active color */
+}
